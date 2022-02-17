@@ -51,7 +51,7 @@ public class B3Quotes {
             method = RequestMethod.GET,
             produces = "application/json")
     @ResponseBody
-    public String ticker(@PathVariable String ticker) {
+    public String ticker(@PathVariable String ticker) throws NoContentException {
         Gson gson = new GsonBuilder()
                 .setDateFormat("")
                 .setPrettyPrinting()
@@ -62,7 +62,7 @@ public class B3Quotes {
         if (quote.isPresent()) {
             return gson.toJson(quote.get());
         } else {
-            return gson.toJson(List.of());
+            throw new NoContentException();
         }
     }
 
