@@ -4,6 +4,7 @@ import com.google.gson.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -45,6 +46,13 @@ public class B3Quotes {
             LOGGER.error("", e);
         }
         LOGGER.info("Finished downloading new data");
+    }
+
+    @RequestMapping(value = "/b3/update",
+            method = RequestMethod.HEAD)
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public void update() {
+        ForkJoinPool.commonPool().submit(this::loadData);
     }
 
     @RequestMapping(value = "/b3/{ticker}",
