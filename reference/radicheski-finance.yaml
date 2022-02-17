@@ -1,0 +1,212 @@
+openapi: 3.1.0
+info:
+  title: radicheski-finance
+  version: '1.0'
+servers:
+  - url: 'https://radicheski-finance.herokuapp.com'
+paths:
+  '/b3/{ticker}':
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                description: ''
+                type: object
+                x-examples:
+                  example-1:
+                    tp_reg: 1
+                    dt_pregao: '2022-02-09'
+                    cd_bdi: 96
+                    cd_acao: BBSE3F
+                    tp_merc: 20
+                    nm_empresa_rdz: BBSEGURIDADE
+                    especi: ON      NM
+                    prazot: null
+                    moeda_ref: R$
+                    vl_abertura: 24.12
+                    vl_maximo: 24.48
+                    vl_minimo: 24.05
+                    vl_medio: 24.29
+                    vl_fechamento: 24.32
+                    vl_mlh_oft_compra: 24.3
+                    vl_mlh_oft_venda: 24.32
+                    vl_ttl_neg: 4856
+                    qt_tit_neg: 61996
+                    vl_volume: 1506349.41
+                    vl_exec_opc: 0
+                    in_opc: 0
+                    dt_vnct_opc: '9999-12-31'
+                    ft_cotacao: 1
+                    vl_exec_moeda_corrente: 0
+                    cd_isin: BRBBSEACNOR5
+                    numeroDistribuicao: 119
+                properties:
+                  tp_reg:
+                    type: integer
+                  dt_pregao:
+                    type: string
+                    format: date
+                  cd_bdi:
+                    type: integer
+                  cd_acao:
+                    type: string
+                    minLength: 1
+                  tp_merc:
+                    type: integer
+                  nm_empresa_rdz:
+                    type: string
+                    minLength: 1
+                  especi:
+                    type: string
+                    minLength: 1
+                  prazot:
+                    type:
+                      - integer
+                      - 'null'
+                  moeda_ref:
+                    type: string
+                    minLength: 1
+                  vl_abertura:
+                    type: number
+                  vl_maximo:
+                    type: number
+                  vl_minimo:
+                    type: number
+                  vl_medio:
+                    type: number
+                  vl_fechamento:
+                    type: number
+                  vl_mlh_oft_compra:
+                    type: number
+                  vl_mlh_oft_venda:
+                    type: number
+                  vl_ttl_neg:
+                    type: integer
+                  qt_tit_neg:
+                    type: integer
+                  vl_volume:
+                    type: number
+                  vl_exec_opc:
+                    type: number
+                  in_opc:
+                    type: integer
+                  dt_vnct_opc:
+                    type: string
+                    format: date
+                  ft_cotacao:
+                    type: number
+                  vl_exec_moeda_corrente:
+                    type: number
+                  cd_isin:
+                    type: string
+                    minLength: 1
+                  numeroDistribuicao:
+                    type: integer
+                required:
+                  - tp_reg
+                  - dt_pregao
+                  - cd_bdi
+                  - cd_acao
+                  - tp_merc
+                  - nm_empresa_rdz
+                  - especi
+                  - prazot
+                  - moeda_ref
+                  - vl_abertura
+                  - vl_maximo
+                  - vl_minimo
+                  - vl_medio
+                  - vl_fechamento
+                  - vl_mlh_oft_compra
+                  - vl_mlh_oft_venda
+                  - vl_ttl_neg
+                  - qt_tit_neg
+                  - vl_volume
+                  - vl_exec_opc
+                  - in_opc
+                  - dt_vnct_opc
+                  - ft_cotacao
+                  - vl_exec_moeda_corrente
+                  - cd_isin
+                  - numeroDistribuicao
+              examples:
+                BBSE3F:
+                  value:
+                    tp_reg: 1
+                    dt_pregao: '2022-02-09'
+                    cd_bdi: 96
+                    cd_acao: BBSE3F
+                    tp_merc: 20
+                    nm_empresa_rdz: BBSEGURIDADE
+                    especi: ON      NM
+                    prazot: null
+                    moeda_ref: R$
+                    vl_abertura: 24.12
+                    vl_maximo: 24.48
+                    vl_minimo: 24.05
+                    vl_medio: 24.29
+                    vl_fechamento: 24.32
+                    vl_mlh_oft_compra: 24.3
+                    vl_mlh_oft_venda: 24.32
+                    vl_ttl_neg: 4856
+                    qt_tit_neg: 61996
+                    vl_volume: 1506349.41
+                    vl_exec_opc: 0
+                    in_opc: 0
+                    dt_vnct_opc: '9999-12-31'
+                    ft_cotacao: 1
+                    vl_exec_moeda_corrente: 0
+                    cd_isin: BRBBSEACNOR5
+                    numeroDistribuicao: 119
+                BBSE3T:
+                  value:
+                    tp_reg: 1
+                    dt_pregao: '2022-02-09'
+                    cd_bdi: 62
+                    cd_acao: BBSE3T
+                    tp_merc: 30
+                    nm_empresa_rdz: BBSEGURIDADE
+                    especi: ON      NM
+                    prazot: 180
+                    moeda_ref: R$
+                    vl_abertura: 25.95
+                    vl_maximo: 25.96
+                    vl_minimo: 25.95
+                    vl_medio: 25.95
+                    vl_fechamento: 25.96
+                    vl_mlh_oft_compra: 0
+                    vl_mlh_oft_venda: 0
+                    vl_ttl_neg: 2
+                    qt_tit_neg: 200
+                    vl_volume: 5190.77
+                    vl_exec_opc: 0
+                    in_opc: 0
+                    dt_vnct_opc: '9999-12-31'
+                    ft_cotacao: 1
+                    vl_exec_moeda_corrente: 0
+                    cd_isin: BRBBSEACNOR5
+                    numeroDistribuicao: 119
+        '204':
+          description: No Content
+      operationId: get-b3
+      parameters: []
+    parameters:
+      - schema:
+          type: string
+        name: ticker
+        in: path
+        required: true
+  /b3/update:
+    head:
+      summary: ''
+      operationId: head-b3-update
+      responses:
+        '202':
+          description: Accepted
+components:
+  schemas: {}
