@@ -16,6 +16,8 @@ import java.net.http.HttpResponse;
 import java.nio.file.*;
 import java.time.LocalDate;
 import java.util.*;
+import java.util.concurrent.ForkJoinPool;
+import java.util.stream.Collectors;
 
 @Controller
 public class B3Quotes {
@@ -46,6 +48,24 @@ public class B3Quotes {
             LOGGER.error("", e);
         }
         LOGGER.info("Finished downloading new data");
+    }
+
+    @RequestMapping(value = "/b3",
+            method = RequestMethod.GET,
+            produces = "application/json")
+    @ResponseBody
+    public String getAssets() {
+        Gson gson = new GsonBuilder()
+                .setDateFormat("")
+                .setPrettyPrinting()
+                .registerTypeAdapter(LocalDate.class, new LocalDateAdapter())
+                .serializeNulls()
+                .create();
+        List<B3Quote> list1 = this.repository.findAll();
+        List<String> list = list1.stream()
+                .map(B3Quote::getCd_acao)
+                .collect(Collectors.toList());
+        return gson.toJson(list);
     }
 
     @RequestMapping(value = "/b3/update",
