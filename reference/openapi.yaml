@@ -195,6 +195,27 @@ paths:
           description: No Content
       operationId: get-b3
       parameters: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                ticker:
+                  type: string
+                date:
+                  type: object
+                  properties:
+                    from:
+                      type: string
+                      format: date
+                    until:
+                      type: string
+                      format: date
+              required:
+                - ticker
+            examples: {}
+        description: ''
     parameters:
       - schema:
           type: string
@@ -208,5 +229,31 @@ paths:
       responses:
         '202':
           description: Accepted
+  /brokerage-firms:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/BrokerageFirm'
+      operationId: get-brokerage-firms
 components:
-  schemas: {}
+  schemas:
+    BrokerageFirm:
+      title: BrokerageFirm
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+      required:
+        - id
+        - name
