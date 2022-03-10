@@ -242,7 +242,30 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/BrokerageFirm'
+        '204':
+          description: No Content
       operationId: get-brokerage-firms
+  /brokerage-firms/query:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/BrokerageFirm'
+        '204':
+          description: No Content
+      operationId: get-brokerage-firms-query
+      parameters:
+        - schema:
+            type: string
+          in: query
+          name: s
 components:
   schemas:
     BrokerageFirm:
