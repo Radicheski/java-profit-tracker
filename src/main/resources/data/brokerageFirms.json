@@ -1,0 +1,502 @@
+[
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "24216468-865c-409b-bde6-e0af3a68939f",
+    "name": "ALFA CCVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "fc2d9d2c-e49f-49b4-baad-3ef1fe974335",
+    "name": "AMARIL FRANKLIN CTV LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "773f21a5-15bd-45a2-b313-96bc9501c48b",
+    "name": "ATIVA INVESTIMENTOS S/A CTCV"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "7b26c810-f4da-4a6d-90ad-10105be29060",
+    "name": "B3 S.A. - BRASIL BOLSA BALCÃO"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "9ef668b9-9738-4bb9-ba56-90f7f3ea2160",
+    "name": "BANCO ALFA DE INVESTIMENTO S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "73250929-98e2-40f4-a8ce-921e28f9dabc",
+    "name": "BANCO B3 S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "e5d3c39a-e50f-46fa-a0e3-519a06ebc95e",
+    "name": "BANCO BNP PARIBAS BRASIL S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "fa05dae6-feb6-41de-a6f9-fd4481440a8e",
+    "name": "BANCO BOCOM BBM SA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "4e32e44c-062a-42e4-bfb0-0f343a273ee8",
+    "name": "BANCO BRADESCO S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "06fe5871-f9dc-48c5-9949-bd0e6e4a8e2c",
+    "name": "BANCO BTG PACTUAL S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "1aef49e3-5a18-4d9e-b5ce-79b25d37e752",
+    "name": "BANCO CENTRAL DO BRASIL"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "35d9e2b2-7b3d-4ad4-96bd-edffaf88d2dc",
+    "name": "BANCO CITIBANK S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "09978c96-7b50-40d0-8380-45fb8f53b951",
+    "name": "BANCO COOPERATIVO SICREDI S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "669b5cb3-f7c9-4a9d-b27c-b46401f67e6a",
+    "name": "BANCO CREDIT AGRICOLE BRASIL S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "edd5cd61-747f-4c07-9289-5e40c876c0e2",
+    "name": "BANCO DE INVEST. CREDIT SUISSE (BRASIL) S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "95e3b0db-3175-4dba-aa61-273f0d71e701",
+    "name": "BANCO DO BRASIL S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "4555fcf9-3637-496e-a06c-d1924039ea7e",
+    "name": "BANCO FIBRA S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "0d331dd6-5581-461a-bb44-6bd9e17fac63",
+    "name": "BANCO ITAU BBA S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "f98abecc-6292-4f61-aa29-3ffed5ba5d98",
+    "name": "BANCO J.P.MORGAN S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "8838c515-7a8d-433b-a26a-895d57a4af9f",
+    "name": "BANCO MASTER S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "91bde155-38b6-4100-ba87-e14757d36809",
+    "name": "BANCO MIZUHO DO BRASIL S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "4d69b505-b36a-4917-9e9d-eaefa88a1d83",
+    "name": "BANCO MODAL S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "50e76954-f799-40f0-8429-8d5409e11458",
+    "name": "BANCO MORGAN STANLEY S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "046f96f3-774b-498c-a45e-c8cb803259eb",
+    "name": "BANCO MUFG BRASIL S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "9a40e79a-8f98-43f5-af1d-22b7e249b40c",
+    "name": "BANCO PAN S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "dcc82a57-35f8-4583-ab42-68ddf32a5e5a",
+    "name": "BANCO PINE S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "f19945bf-5bc0-4b99-a4d6-fb25e8947ce1",
+    "name": "BANCO RABOBANK INTERNATIONAL BRASIL S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "20136a5e-b3a2-40f6-b333-f53de5d5b5d9",
+    "name": "BANCO SAFRA S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "c403fa88-938a-4147-baf2-5ed77ceef26c",
+    "name": "BANCO SANTANDER (BRASIL) S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "c36f2fc9-1a4f-4a7a-8407-954872cbe83a",
+    "name": "BANCO SOCIETE GENERALE BRASIL S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "4bb8de3a-464c-4303-b91e-5126e0cd99ca",
+    "name": "BANCO VOITER SA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "4f383406-a525-4197-bfc3-2f1066b2526c",
+    "name": "BANCO VOTORANTIM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "b5d85d77-e32e-4762-ae47-56481565155a",
+    "name": "BANCO XP S.A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "0969a226-4ea1-4fe1-972c-cc06ea2f184a",
+    "name": "BANK OF AMERICA MERRILL LYNCH BANCO MULTIPLO"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "278406a8-2762-479d-bcf5-c0b8327ccc1a",
+    "name": "BANRISUL S/A CORRETORA DE VAL MOB E CAMBIO"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "3945d3bc-fccb-4781-bb1c-f13db2cd96b2",
+    "name": "BB BANCO DE INVESTIMENTO S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "0fab7af7-5750-41c9-9ff4-ba6ba6bff157",
+    "name": "BB GESTAO DE RECURSOS DTVM S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "5db511cc-5bbf-49c2-b0ab-9da7346bcd56",
+    "name": "BEXS CORRETORA DE CAMBIO S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "b95456a3-c838-4df9-9f43-b1ac7d44ee60",
+    "name": "BGC LIQUIDEZ DTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "a92842f8-2114-4d18-8fd6-9c76525e0cab",
+    "name": "BOCOM BBM CCVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "516f8880-3912-41a3-8351-473df801a7b6",
+    "name": "BRADESCO S/A CTVM"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "d5877aaf-9b9e-4994-835a-f34f1802e677",
+    "name": "BTG PACTUAL CTVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "2056a5de-a129-41da-9e6a-904ece634f38",
+    "name": "BV DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "c9c3ea65-f827-43ad-9f51-cfc21e6e84f8",
+    "name": "C6 CORRETORA DE TITULOS E VALORES MOBILIARIOS LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "cbd5f445-7b95-408f-8377-11053f789056",
+    "name": "CHINA CONSTRUCTION BANK (BRASIL) BANCO MULTIPLO S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "7578fbe3-6215-478a-8062-f116b6fbd1b5",
+    "name": "CITIBANK DTVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "f945cf60-339c-4f81-8356-d143adf57637",
+    "name": "CITIGROUP GLOBAL MARKETS BRASIL CCTVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "2e1acbfe-4176-4b16-b1b7-1c8f823e7b75",
+    "name": "CLEAR CORRETORA - GRUPO XP"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "8a815d90-3ea3-4950-bea5-b777a4e18a27",
+    "name": "CM CAPITAL MARKETS CCTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "7f8f0832-4946-4105-b453-0133169ebd98",
+    "name": "CODEPE CORRETORA DE VALORES E CÂMBIO S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "4c207839-1949-4077-8450-6a5877a4f2f9",
+    "name": "CORRETORA GERAL DE VALORES E CAMBIO LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "405c6e87-a259-4ecb-bcf0-0094ed74c060",
+    "name": "CREDIT SUISSE (BRASIL) S.A. CTVM"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "1a357cdb-a9fe-4ccc-8d98-75100d86e0e2",
+    "name": "DEUTSCHE BANK S/A - BANCO ALEMAO"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "a6aa737e-72ec-4103-8dce-c15ae3081a1d",
+    "name": "ELITE CCVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "73a1a541-b030-46c3-9773-0e8850aa74bd",
+    "name": "FATOR S/A - CORRETORA DE VALORES"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "22d2a5bd-0610-411a-9f34-e2a1833b5344",
+    "name": "GENIAL INSTITUCIONAL CCTVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "af3ff646-f677-4d21-9a17-c39ca9c80795",
+    "name": "GOLDMAN SACHS DO BRASIL BANCO MULTIPLO S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "6d8d23aa-266c-4bdb-850d-267332527510",
+    "name": "GOLDMAN SACHS DO BRASIL CTVM SA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "48561280-d75a-4b7f-a6cf-c4e9975f71df",
+    "name": "GUIDE INVESTIMENTOS SA CORRETORA DE VALORES"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "cfbf1146-6220-4034-9d01-7fe97fc27ec2",
+    "name": "H.COMMCOR DTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "8c4128e8-8b1e-4470-863f-d79e4dd2a24d",
+    "name": "ICAP DO BRASIL CTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "3d4a9276-6b0e-4c9f-85ee-019871559956",
+    "name": "IDEAL CTVM S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "46a6a126-cecf-441b-9c34-cf7eca7d0f0d",
+    "name": "ING BANK N.V."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "904f2a22-f124-4cc6-bbb9-3c25d9a24533",
+    "name": "ING CCT S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "a77f3a0c-148a-4e14-9aaf-92998864610e",
+    "name": "INTER DTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "17607cec-2892-4cc2-9810-2552c44aaaa6",
+    "name": "ITAU CV S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "e51557f9-64b9-4241-8ba2-34d675f0e13c",
+    "name": "ITAU UNIBANCO S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "00f4230b-ea5e-4cf8-afd3-de934c8bd7b5",
+    "name": "J.P. MORGAN CCVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "0c89c34c-5e1f-45f5-a839-43324e7c9c79",
+    "name": "MASTER S/A CCTVM"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "27822e21-3124-42be-9e3c-4018b45dbd8d",
+    "name": "MERCANTIL DO BRASIL C. S/A CTVM"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "c11e9cb3-a7fa-42cc-8eed-66b7149e6361",
+    "name": "MERRILL LYNCH S/A CTVM"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "cc600000-bbf1-44dd-bad6-6d6eeaae938e",
+    "name": "MIRAE ASSET WEALTH MANAGEMENT (BRASIL) CCTVM LTDA."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "7a733b3a-05d7-497f-b471-a25f24bfd194",
+    "name": "MODAL DTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "5652b239-40a3-472b-a431-13093cec2634",
+    "name": "MORGAN STANLEY CTVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "9ecdd385-e7d6-4811-abc1-532d369b197b",
+    "name": "NECTON INVESTIMENTOS S.A. CVMC"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "dfacf1bf-d493-4159-ab6f-4bc904987066",
+    "name": "NOVA FUTURA CTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "3ee05c83-5925-4c41-a7f1-cabff40c7a73",
+    "name": "NU INVEST CORRETORA DE VALORES S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "9b129e4a-1ab2-4946-bcf7-5e1267fbce5f",
+    "name": "ORAMA DTVM S A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "70be07d0-508e-40a8-8cba-4d1da450cdf0",
+    "name": "PI DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "b73b7a1e-7855-4880-b53d-ba8258c77411",
+    "name": "PLANNER CORRETORA DE VALORES S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "7cbf277f-4734-4297-b028-644ebc6bc277",
+    "name": "RB INVESTIMENTOS DTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "0ff0ba36-3ab8-4597-824b-e01faa250a96",
+    "name": "RENASCENCA DTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "06c7aae7-3b81-444a-9a17-947338001da9",
+    "name": "RICO INVESTIMENTOS - GRUPO XP"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "27c59f4c-d2e8-4f7e-be8b-c289856dc663",
+    "name": "SAFRA CORRETORA DE VALORES E CAMBIO LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "f1ed524a-beff-4899-b2b2-026b9121647f",
+    "name": "SANTANDER CCVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "35791272-c777-4834-a169-8ee04bbe9fde",
+    "name": "SCOTIABANK BRASIL S.A. BANCO MULTIPLO"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "5de626e9-9f23-47f5-964d-645822c981c3",
+    "name": "SCOTIABANK BRASIL S.A. CTVM"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "a9dea9df-045c-40e7-8456-7f4800f8f8c8",
+    "name": "SENSO C.C.V.M. S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "4f57c46b-f426-4718-8f49-0c24bba9d912",
+    "name": "SIM PAUL CORRETORA DE CAMBIO E VALORES MOBILIARIOS S.A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "a5686a2c-3613-4f26-92a1-7849da0c1e6c",
+    "name": "SINGULARE CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "6ea41209-a5b2-4293-800c-89ee249a95dd",
+    "name": "SITA SOCIEDADE CCVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "aa93f6a8-b0b9-4dbc-a327-a296e2cba26a",
+    "name": "SSM - SISTEMA DE SIMULACAO DE MARGENS"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "5f276715-b41b-4055-92ca-00c4d3461d8e",
+    "name": "STONEX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "2ee0540b-407b-471a-b961-7996362dae1f",
+    "name": "TERRA INVESTIMENTOS DTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "670bdf75-9d5c-4f6c-8589-72e7f051c16b",
+    "name": "TORO CTVM LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "ed9417ca-0791-417b-b5e1-eb33c0211804",
+    "name": "TULLETT PREBON BRASIL CVC LTDA."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "cfd564f4-6aa3-4cfd-8f2f-d567fe8173cf",
+    "name": "UBS BRASIL CCTVM S/A"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "f55c1fc5-f7b7-48cb-9a13-5c94a6408616",
+    "name": "VITREO DTVM S.A."
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "0205de6a-d21b-4b5b-944a-4b79969e55fe",
+    "name": "WARREN CVMC LTDA"
+  },
+  {
+    "_class": "me.radicheski.financebackend.brokerageFirms.BrokerageFirm",
+    "id": "aee43f60-543d-4d89-9eec-1f1cd8ba7050",
+    "name": "XP INVESTIMENTOS CCTVM S/A"
+  }
+]
