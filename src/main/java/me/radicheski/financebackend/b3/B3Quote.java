@@ -1,4 +1,4 @@
-package me.radicheski.financebackend;
+package me.radicheski.financebackend.b3;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

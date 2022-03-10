@@ -1,10 +1,12 @@
-package me.radicheski.financebackend;
+package me.radicheski.financebackend.b3;
 
 import com.google.gson.*;
+import me.radicheski.financebackend.LocalDateAdapter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -20,9 +22,9 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Collectors;
 
 @Controller
-public class B3Quotes {
+public class B3QuoteController {
 
-    static final Logger LOGGER = LoggerFactory.getLogger(B3Quotes.class);
+    static final Logger LOGGER = LoggerFactory.getLogger(B3QuoteController.class);
 
     B3Visitor visitor;
     B3QuoteRepository repository;
@@ -50,22 +52,16 @@ public class B3Quotes {
         LOGGER.info("Finished downloading new data");
     }
 
-    @RequestMapping(value = "/b3",
-            method = RequestMethod.GET,
+    @GetMapping(value = "/b3",
             produces = "application/json")
     @ResponseBody
-    public String getAssets() {
-        Gson gson = new GsonBuilder()
-                .setDateFormat("")
-                .setPrettyPrinting()
-                .registerTypeAdapter(LocalDate.class, new LocalDateAdapter())
-                .serializeNulls()
-                .create();
-        List<B3Quote> list1 = this.repository.findAll();
-        List<String> list = list1.stream()
+    public ResponseEntity<List<String>> getAssets() {
+        List<String> asset = this.repository.findAll().stream()
                 .map(B3Quote::getCd_acao)
                 .collect(Collectors.toList());
-        return gson.toJson(list);
+
+        if (asset.isEmpty()) return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
+        else return new ResponseEntity<>(asset, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/b3/update",
@@ -75,23 +71,14 @@ public class B3Quotes {
         ForkJoinPool.commonPool().submit(this::loadData);
     }
 
-    @RequestMapping(value = "/b3/{ticker}",
-            method = RequestMethod.GET,
+    @GetMapping(value = "/b3/{ticker}",
             produces = "application/json")
     @ResponseBody
-    public String ticker(@PathVariable String ticker) throws NoContentException {
-        Gson gson = new GsonBuilder()
-                .setDateFormat("")
-                .setPrettyPrinting()
-                .registerTypeAdapter(LocalDate.class, new LocalDateAdapter())
-                .serializeNulls()
-                .create();
+    public ResponseEntity<B3Quote> ticker(@PathVariable String ticker) {
         Optional<B3Quote> quote = this.repository.findById(ticker);
-        if (quote.isPresent()) {
-            return gson.toJson(quote.get());
-        } else {
-            throw new NoContentException();
-        }
+
+        if (quote.isPresent()) return new ResponseEntity<>(quote.get(), HttpStatus.OK);
+        else return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
     }
 
     @Autowired
